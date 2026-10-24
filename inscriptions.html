@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Formulaire de démonstration pour La Nuit Sportive de l’UPN : course de 5 km et soirée festive. Projet universitaire fictif."
+  >
+
+  <title>Inscriptions | La Nuit Sportive de l’UPN</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="page-inscriptions">
+  <a class="evitement" href="#contenu">Aller au contenu</a>
+
+  <header>
+    <a class="logo" href="evenement.html">
+      LA NUIT SPORTIVE
+      <span>DE L’UPN</span>
+    </a>
+
+    <nav aria-label="Navigation principale">
+      <a href="index.html">Qui suis-je ?</a>
+      <a href="universite.html">Mon université</a>
+      <a href="evenement.html">L’événement</a>
+      <a href="programme.html">Programme</a>
+      <a href="infos.html">Infos pratiques</a>
+
+      <a
+        class="bouton"
+        href="inscriptions.html"
+        aria-current="page"
+      >
+        Je m’inscris
+      </a>
+    </nav>
+  </header>
+
+  <main id="contenu">
+    <section class="presentation">
+      <p class="surtitre">
+        6 NOVEMBRE 2026 · DE 19 H À 2 H
+      </p>
+
+      <h1>Rejoins la soirée</h1>
+
+      <p class="accroche">
+        Fais vibrer le campus, du premier au dernier tour.
+      </p>
+
+      <p>
+        Course nocturne ou soirée uniquement :
+        choisis ton expérience et retrouve
+        la communauté de l’Université Paris Nanterre.
+      </p>
+
+      <p>
+        <strong>Une entrée à 5 € par personne</strong>
+        pour profiter des animations, du parcours gonflable,
+        du concert et du DJ set.
+        La course est incluse pour les personnes
+        qui choisissent d’y participer.
+      </p>
+
+      <p>
+        L’événement est réservé aux étudiants
+        et personnels de l’université.
+        Une carte étudiante ou professionnelle
+        sera demandée à l’entrée.
+      </p>
+
+      <p id="avertissement">
+        <strong>Ce formulaire est une démonstration.</strong>
+        Utilise des informations fictives pour le tester.
+        Aucune donnée n’est transmise ou enregistrée
+        par le site. Aucune inscription réelle
+        et aucun paiement ne sont effectués.
+      </p>
+
+      <a class="lien" href="infos.html">
+        Lire les informations pratiques →
+      </a>
+    </section>
+
+    <section class="apercu formulaire-carte">
+      <h2>Ton inscription</h2>
+
+      <p>
+        Les champs marqués d’un * sont obligatoires.
+      </p>
+
+      <form
+        id="inscription"
+        aria-describedby="avertissement"
+        onsubmit="return false"
+      >
+        <fieldset>
+          <legend>Choisis ton expérience *</legend>
+
+          <label class="choix">
+            <input
+              type="radio"
+              name="participation"
+              value="course"
+              required
+            >
+
+            <span>
+              <strong>
+                Course de 5 km + soirée — 5 €
+              </strong>
+              <br>
+              Course chronométrée, prêt du matériel lumineux
+              et accès aux animations, au concert
+              et au DJ set.
+            </span>
+          </label>
+
+          <label class="choix">
+            <input
+              type="radio"
+              name="participation"
+              value="soiree"
+            >
+
+            <span>
+              <strong>
+                Soirée uniquement — 5 €
+              </strong>
+              <br>
+              Accès aux animations, au concert
+              et au DJ set, sans participation
+              à la course.
+            </span>
+          </label>
+
+          <p>
+            Les consommations sont en supplément.
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Tes informations</legend>
+
+          <label for="prenom">Prénom *</label>
+          <input
+            id="prenom"
+            type="text"
+            autocomplete="off"
+            required
+          >
+
+          <label for="nom">Nom *</label>
+          <input
+            id="nom"
+            type="text"
+            autocomplete="off"
+            required
+          >
+
+          <label for="email">
+            Adresse e-mail universitaire *
+          </label>
+          <input
+            id="email"
+            type="email"
+            autocomplete="off"
+            required
+          >
+
+          <label for="statut">Tu es… *</label>
+          <select id="statut" required>
+            <option value="">Choisis ton statut</option>
+
+            <option value="etudiant">
+              Étudiant ou étudiante de l’UPN
+            </option>
+
+            <option value="personnel">
+              Membre du personnel de l’UPN
+            </option>
+          </select>
+
+          <label for="besoin">
+            Besoin d’accessibilité ou d’aménagement
+            (facultatif)
+          </label>
+          <textarea
+            id="besoin"
+            rows="4"
+            placeholder="Pour ce test, utilise un exemple fictif sans information médicale."
+          ></textarea>
+        </fieldset>
+
+        <fieldset>
+          <legend>Avant de terminer</legend>
+
+          <label class="choix">
+            <input type="checkbox" required>
+
+            <span>
+              Je confirme, pour cette simulation,
+              être étudiant ou membre du personnel
+              de l’Université Paris Nanterre
+              et avoir pris connaissance du contrôle
+              de la carte à l’entrée. *
+            </span>
+          </label>
+
+          <label class="choix">
+            <input type="checkbox" required>
+
+            <span>
+              J’ai lu les informations pratiques et,
+              si je participe à la course,
+              je m’engage à respecter les consignes
+              et à restituer le matériel prêté. *
+            </span>
+          </label>
+        </fieldset>
+
+        <button class="bouton" type="submit">
+          Tester mon inscription
+        </button>
+
+        <p
+          id="confirmation"
+          role="status"
+          hidden
+        ></p>
+      </form>
+
+      <noscript>
+        <p>
+          Active JavaScript dans ton navigateur
+          pour tester le formulaire.
+          Aucune inscription réelle n’est proposée.
+        </p>
+      </noscript>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      Projet universitaire fictif — Annabelle Charrier.
+      Cet événement n’est pas officiellement organisé
+      par l’université.
+    </p>
+  </footer>
+
+  <script>
+    const formulaire = document.getElementById("inscription");
+    const confirmation = document.getElementById("confirmation");
+
+    formulaire.addEventListener("submit", function (event) {
+      event.preventDefault();
+
+      confirmation.textContent =
+        "Test réussi ! Les champs obligatoires sont remplis. " +
+        "Aucune donnée n’a été envoyée et aucune inscription " +
+        "réelle n’a été effectuée.";
+
+      confirmation.hidden = false;
+    });
+
+    formulaire.addEventListener("input", function () {
+      confirmation.hidden = true;
+    });
+  </script>
+</body>
+</html>

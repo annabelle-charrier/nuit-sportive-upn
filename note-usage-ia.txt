@@ -1,0 +1,103 @@
+NOTE SUR L’UTILISATION DE L’INTELLIGENCE ARTIFICIELLE
+
+Étudiante : Annabelle Charrier
+Formation : Master 2 STAPS Management des Événements
+et Loisirs Sportifs, parcours Conduite de projet
+Université : Université Paris Nanterre
+
+Projet : La Nuit Sportive de l’UPN
+
+
+1. OUTILS UTILISÉS
+
+J’ai utilisé ChatGPT pour m’aider à définir le concept
+de l’événement, structurer les six pages du site,
+préparer les textes et générer le code HTML et CSS.
+
+La génération d’images de ChatGPT a servi à réaliser
+des maquettes pour choisir l’ambiance visuelle du site.
+Ces maquettes ne sont pas les photographies intégrées
+dans la version finale.
+
+J’ai utilisé Sublime Text pour enregistrer et modifier
+les fichiers, puis mon navigateur pour tester le site.
+
+
+2. MES CHOIX ET MA PERSONNALISATION
+
+J’ai choisi le nom de l’événement, son sous-titre,
+sa date, son public et son tarif.
+
+J’ai précisé le format de la course : 5 km chronométrés,
+sur cinq boucles de 1 km, avec un classement.
+
+J’ai également choisi les animations et le principe
+d’une soirée accessible sans participer à la course.
+
+J’ai fourni mon texte de présentation personnelle,
+ma photographie et les visuels à intégrer.
+
+J’ai demandé une identité visuelle rouge, noire et blanche,
+un fond nocturne et une mise en page différente
+pour chaque page.
+
+
+3. INTERVENTIONS DANS LES FICHIERS
+
+J’ai intégré les codes dans des fichiers HTML séparés
+et dans un fichier CSS commun.
+
+J’ai ajouté les images dans le dossier images
+et corrigé leurs chemins dans le code pour permettre
+leur affichage.
+
+J’ai changé le lien du titre du site pour qu’il mène
+à la page de présentation de l’événement.
+
+Avec l’aide de ChatGPT, j’ai intégré les corrections
+de mise en page, la justification des paragraphes
+et le recadrage des images.
+
+Les corrections techniques proposées par l’IA ont été
+copiées et enregistrées manuellement dans Sublime Text.
+
+
+4. SOURCES ET ILLUSTRATIONS
+
+Les informations sur l’université proviennent
+de ses sites officiels :
+
+https://www.parisnanterre.fr/
+https://university.parisnanterre.fr/university-presentation
+https://etudiants.parisnanterre.fr/vie-sur-les-campus
+https://suaps.parisnanterre.fr/
+
+Portrait : photographie personnelle fournie
+par Annabelle Charrier.
+
+Logo de l’université : source à compléter.
+
+Photo du couloir rouge : source et licence à compléter.
+
+Photo de la course : source et licence à compléter.
+
+Photo du parcours gonflable : source et licence à compléter.
+
+Photo de la soirée :
+https://unsplash.com/fr/photos/personnes-se-rassemblant-en-concert-pendant-la-nuit-2Y2NvdlSTls
+Nom du photographe à compléter.
+
+
+5. CARACTÈRE FICTIF DU PROJET
+
+La Nuit Sportive de l’UPN est un événement fictif
+imaginé dans le cadre du cours de communication digitale.
+Il n’est pas officiellement organisé par l’université.
+
+Les photographies illustrent l’ambiance souhaitée
+et ne représentent pas un événement réellement organisé
+sur le campus.
+
+Le formulaire est une démonstration :
+aucune inscription réelle, aucun paiement
+et aucun enregistrement de données ne sont effectués.

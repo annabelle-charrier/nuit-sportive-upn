@@ -1,6 +1,6 @@
 NOTE SUR L’UTILISATION DE L’INTELLIGENCE ARTIFICIELLE
 
-Étudiante : Annabelle Charrier
+Étudiante : Annabelle CHARRIER
 Formation : Master 2 STAPS Management des Événements
 et Loisirs Sportifs, parcours Conduite de projet
 Université : Université Paris Nanterre
@@ -12,7 +12,8 @@ Projet : La Nuit Sportive de l’UPN
 
 J’ai utilisé ChatGPT pour m’aider à définir le concept
 de l’événement, structurer les six pages du site,
-préparer les textes et générer le code HTML et CSS.
+préparer les textes et générer le code HTML, CSS
+et le JavaScript du formulaire de démonstration.
 
 La génération d’images de ChatGPT a servi à réaliser
 des maquettes pour choisir l’ambiance visuelle du site.
@@ -22,11 +23,14 @@ dans la version finale.
 J’ai utilisé Sublime Text pour enregistrer et modifier
 les fichiers, puis mon navigateur pour tester le site.
 
+J’ai utilisé GitHub pour déposer les fichiers
+et GitHub Pages pour publier le site.
+
 
 2. MES CHOIX ET MA PERSONNALISATION
 
 J’ai choisi le nom de l’événement, son sous-titre,
-sa date, son public et son tarif.
+sa date, ses horaires, son public et son tarif.
 
 J’ai précisé le format de la course : 5 km chronométrés,
 sur cinq boucles de 1 km, avec un classement.
@@ -34,58 +38,127 @@ sur cinq boucles de 1 km, avec un classement.
 J’ai également choisi les animations et le principe
 d’une soirée accessible sans participer à la course.
 
-J’ai fourni mon texte de présentation personnelle,
-ma photographie et les visuels à intégrer.
+J’ai fourni mon texte de présentation personnelle
+et ma photographie, puis sélectionné les photographies
+d’illustration sur Unsplash.
 
-J’ai demandé une identité visuelle rouge, noire et blanche,
+J’ai choisi une identité visuelle rouge, noire et blanche,
 un fond nocturne et une mise en page différente
-pour chaque page.
+pour chaque page, tout en conservant une typographie
+et un menu communs.
 
 
 3. INTERVENTIONS DANS LES FICHIERS
 
-J’ai intégré les codes dans des fichiers HTML séparés
-et dans un fichier CSS commun.
+J’ai intégré les codes dans six fichiers HTML distincts :
+index.html, universite.html, evenement.html, programme.html,
+infos.html et inscriptions.html.
+
+La présentation visuelle est regroupée dans un fichier
+CSS séparé : style.css.
 
 J’ai ajouté les images dans le dossier images
-et corrigé leurs chemins dans le code pour permettre
-leur affichage.
+et corrigé leurs noms et leurs chemins dans le code,
+notamment pour tenir compte de leur extension .avif.
 
 J’ai changé le lien du titre du site pour qu’il mène
 à la page de présentation de l’événement.
 
-Avec l’aide de ChatGPT, j’ai intégré les corrections
-de mise en page, la justification des paragraphes
-et le recadrage des images.
+Avec l’aide de ChatGPT, j’ai intégré :
+- la justification des paragraphes ;
+- mon portrait à droite de ma présentation ;
+- le logo de l’université sur sa page dédiée ;
+- le programme sous forme de chronologie ;
+- les informations pratiques sous forme de fiches ;
+- l’adaptation des pages aux petits écrans ;
+- le recadrage des images selon la hauteur des textes ;
+- des filtres CSS rouges pour les photos de course
+  et de basket ;
+- une rubrique de crédits photographiques avec des liens
+  vers les sources et la licence.
+
+J’ai remplacé les premières illustrations par quatre
+photographies proposées sous licence Unsplash.
 
 Les corrections techniques proposées par l’IA ont été
-copiées et enregistrées manuellement dans Sublime Text.
+copiées, intégrées et enregistrées manuellement
+dans Sublime Text. J’ai ensuite vérifié le résultat
+dans mon navigateur et mis à jour les fichiers sur GitHub.
 
 
 4. SOURCES ET ILLUSTRATIONS
 
-Les informations sur l’université proviennent
-de ses sites officiels :
+INFORMATIONS SUR L’UNIVERSITÉ
+
+Les informations sur l’Université Paris Nanterre
+proviennent de ses sites officiels :
 
 https://www.parisnanterre.fr/
 https://university.parisnanterre.fr/university-presentation
 https://etudiants.parisnanterre.fr/vie-sur-les-campus
 https://suaps.parisnanterre.fr/
 
-Portrait : photographie personnelle fournie
-par Annabelle Charrier.
 
-Logo de l’université : source à compléter.
+PHOTOGRAPHIES DE LA PAGE ÉVÉNEMENT
 
-Photo du couloir rouge : source et licence à compléter.
+Les quatre photographies suivantes sont utilisées
+sous licence Unsplash :
 
-Photo de la course : source et licence à compléter.
+https://unsplash.com/license
 
-Photo du parcours gonflable : source et licence à compléter.
+Leurs crédits et les liens vers les photographies
+originales figurent également sur la page événement.
 
-Photo de la soirée :
-https://unsplash.com/fr/photos/personnes-se-rassemblant-en-concert-pendant-la-nuit-2Y2NvdlSTls
-Nom du photographe à compléter.
+Fond nocturne
+Photographe : Alexandre Brondino
+Fichier : fond-nocturne.avif
+Source : https://unsplash.com/photos/3deP8rsAgJc
+Licence : Unsplash
+Adaptations : recadrage et assombrissement par le CSS.
+
+Course
+Photographe : Fitsum Admasu
+Fichier : course.avif
+Source : https://unsplash.com/photos/oGv9xIl7DkY
+Licence : Unsplash
+Adaptations : recadrage et modification des couleurs
+par un filtre CSS pour obtenir une ambiance rouge.
+
+Animations — basket
+Photographe : Christian Lue
+Fichier : animations.avif
+Source : https://unsplash.com/photos/fCyyLwjXm88
+Licence : Unsplash
+Adaptations : recadrage et application d’un filtre CSS
+pour obtenir une ambiance rouge et noire.
+
+Soirée
+Photographe : Sterre Reeuwijk
+Fichier : soiree.avif
+Source : https://unsplash.com/photos/j4OtWNZIbJQ
+Licence : Unsplash
+Adaptation : recadrage pour la mise en page.
+
+
+PORTRAIT PERSONNEL
+
+Photographie personnelle fournie par Annabelle CHARRIER.
+Fichier : portrait.jpg
+
+
+LOGO DE L’UNIVERSITÉ
+
+Logo de l’Université Paris Nanterre.
+Fichier : logo-upn.webp
+
+Le logo est utilisé pour identifier mon établissement
+dans le cadre de cette présentation universitaire.
+Il ne relève pas de la licence Unsplash et sa présence
+ne signifie pas que l’université organise ou soutient
+officiellement l’événement fictif.
+
+Site officiel de l’établissement :
+https://www.parisnanterre.fr/
 
 
 5. CARACTÈRE FICTIF DU PROJET
@@ -94,10 +167,14 @@ La Nuit Sportive de l’UPN est un événement fictif
 imaginé dans le cadre du cours de communication digitale.
 Il n’est pas officiellement organisé par l’université.
 
+La date, le programme, les animations, le parcours
+et le prêt de matériel font partie du scénario imaginé.
+
 Les photographies illustrent l’ambiance souhaitée
 et ne représentent pas un événement réellement organisé
 sur le campus.
 
 Le formulaire est une démonstration :
 aucune inscription réelle, aucun paiement
-et aucun enregistrement de données ne sont effectués.
+et aucun enregistrement de données par le site
+ne sont effectués.
